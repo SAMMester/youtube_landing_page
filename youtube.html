@@ -11,7 +11,8 @@
         <link rel="stylesheet" href="youtubecss/general.css">
         <link rel="stylesheet" href="youtubecss/header.css">
         <link rel="stylesheet" href="youtubecss/video.css">
-        </head>
+        <link rel="stylesheet" href="youtubecss/sidebar.css">
+    </head>
     <body>
         <div class="header">
             <div class="left-section">
@@ -22,17 +23,74 @@
                 <input class="search-bar" type="text" placeholder="Search">
                 <button class="search-button">
                     <img class="search-icon" src="icons/search-logo.svg">
+                    <div class="tool-tip">
+                        Search
+                    </div>
                 </button>
                 <button class="voice-search-button">
                     <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                    <div class="tool-tip">
+                        Search with your Voice
+                    </div>
                 </button>
             </div>
-            <div class="right-section">right section</div>
+            <div class="right-section">
+                <button class="upload-button">
+                    <img src="icons/upload.svg">
+                    <div class="tool-tip">
+                        Create
+                    </div>
+                </button>
+                <button class="apps-button">
+                    <img src="icons/youtube-apps.svg">
+                    <div class="tool-tip">
+                        YouTube Apps
+                    </div>
+                </button >
+                <button class="notifications-button">
+                    <img src="icons/notifications.svg">
+                    <div class="tool-tip">
+                        Notifications
+                    </div>
+                    <div class="notifications-number">3</div>
+                </button>
+                <button class="mychannel-button">
+                    <img class="mychannel-icon" src="icons/my-channel.jpeg" >
+                </button>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="sidebar-button">
+                <img src="icons/home.svg" alt="" srcset="">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-button">
+                <img src="icons/explore.svg" alt="" srcset="">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-button">
+                <img src="icons/subscriptions.svg" alt="" srcset="">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-button">
+                <img src="icons/originals.svg" alt="" srcset="">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-button">
+                <img src="icons/youtube-music.svg" alt="" srcset="">
+                <div>YouTube Music</div>
+            </div >
+            <div class="sidebar-button">
+                <img src="icons/library.svg" alt="" srcset="">
+                <div>Library</div>
+            </div>
+
         </div>
         <div class="video-grid">
             <div class="video-preview">
                 <div class="thumbnail">
                     <img class="photos" src="thumbnails/photo1.jpg">
+                    <div class="time-stamp">14:20</div>
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture">
@@ -54,6 +112,7 @@
             <div class="video-preview">
                 <div class="thumbnail">
                     <img class="photos" src="thumbnails/photo2.jpg">
+                    <div class="time-stamp">8:22</div>
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture">
@@ -75,6 +134,7 @@
             <div class="video-preview">
                 <div class="thumbnail">
                     <img class="photos" src="thumbnails/photo3.jpg">
+                    <div class="time-stamp">9:13</div>
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture">
@@ -82,7 +142,8 @@
                     </div>
                     <div class="video-info">
                         <p class="video-title">
-                            Crazy Tik Toks Taken Moments Before DISASTER                        </p>
+                            Crazy Tik Toks Taken Moments Before DISASTER
+                        </p>
                         <p class="video-author">
                             SSSniperWolf
                         </p>
@@ -95,6 +156,7 @@
             <div class="video-preview">
                 <div class="thumbnail">
                     <img class="photos" src="thumbnails/thumbnail-4.webp">
+                    <div class="time-stamp">22:09</div>
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture">
@@ -115,6 +177,7 @@
             <div class="video-preview">
                 <div class="thumbnail">
                     <img class="photos" src="thumbnails/thumbnail-5.webp">
+                    <div class="time-stamp">11:07</div>
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture">
@@ -135,6 +198,7 @@
             <div class="video-preview">
                 <div class="thumbnail">
                     <img class="photos" src="thumbnails/thumbnail-6.webp">
+                    <div class="time-stamp">19:59</div>
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture">
@@ -151,9 +215,141 @@
                         </p>
                     </div>
                 </div>
+            </div>           
+            <div class="video-preview">
+                <div class="thumbnail">
+                    <img class="photos" src="thumbnails/thumbnail-7.webp">
+                    <div class="time-stamp">10:13</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel_images/channel-7.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Why Planes Don't Fly Over Tibet
+                        </p>
+                        <p class="video-author">
+                            RealLifeLore
+                        </p>
+                        <p class="video-stats">
+                            6.6M views &#183; 1 Year ago
+                        </p>
+                    </div>
+                </div>
             </div>
-            
+            <div class="video-preview">
+                <div class="thumbnail">
+                    <img class="photos" src="thumbnails/thumbnail-8.webp">
+                    <div class="time-stamp">8:22</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel_images/channel-8.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Inside The World's Biggest Passenger Plane
+                        </p>
+                        <p class="video-author">
+                            Tech Vision
+                        </p>
+                        <p class="video-stats">
+                            3.7M views · 10 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail">
+                    <img class="photos" src="thumbnails/thumbnail-9.webp">
+                    <div class="time-stamp">9:13</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel_images/channel-9.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            The SECRET to Super Human STRENGTH
+                        </p>
+                        <p class="video-author">
+                            ThenX
+                        </p>
+                        <p class="video-stats">
+                            20M views · 3 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail">
+                    <img class="photos" src="thumbnails/thumbnail-10.webp">
+                    <div class="time-stamp">22:09</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel_images/channel-10.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
+                        </p>
+                        <p class="video-author">
+                            Business Insider
+                        </p>
+                        <p class="video-stats">
+                            14M views · 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail">
+                    <img class="photos" src="thumbnails/thumbnail-11.webp">
+                    <div class="time-stamp">11:07</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel_images/channel-11.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+                        </p>
+                        <p class="video-author">
+                            Destination Tips
+                        </p>
+                        <p class="video-stats">
+                            3M views · 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail">
+                    <img class="photos" src="thumbnails/thumbnail-12.webp">
+                    <div class="time-stamp">19:59</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel_images/channel-12.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            What would happen if you didn’t drink water? - Mia Nacamulli
+                        </p>
+                        <p class="video-author">
+                            TED-Ed
+                        </p>
+                        <p class="video-stats">
+                            12M views · 5 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
+
 
     </body>
 

@@ -7,7 +7,7 @@
 
 .video-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 40px;
     column-gap: 15px;
 
@@ -17,7 +17,9 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
+    width: 290px;
+    height: 40px;
 }
 
 .video-info-grid{
@@ -25,7 +27,7 @@
     grid-template-columns: 50px 250px;
 }
 .channel-picture{
-    width: 40px;
+    width: 36px;
     vertical-align: top;
     
 }
@@ -46,4 +48,17 @@
 
 .thumbnail{
     margin-bottom: 12px;
+    position: relative;
+}
+.time-stamp{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    position:absolute;
+    background-color: black;
+    border-radius: 2px;
+    color: white;
+    right: 5px;
+    bottom: 8px;
+    padding: 4px 4px 4px 4px;
 }
